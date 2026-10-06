@@ -1,0 +1,85 @@
+#-----------------------------------------------------------
+# Vivado v2025.1 (64-bit)
+# SW Build 6140274 on Wed May 21 22:58:25 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Thu Aug  6 00:16:54 2026
+# Process ID         : 2973519
+# Current directory  : /home/HCL5/saketh/VIVADO_PROJECTS/interconnect
+# Command line       : vivado
+# Log file           : /home/HCL5/saketh/VIVADO_PROJECTS/interconnect/vivado.log
+# Journal file       : /home/HCL5/saketh/VIVADO_PROJECTS/interconnect/vivado.jou
+# Running On         : RISCV-NSM-Veloce
+# Platform           : RedHatEnterprise
+# Operating System   : Red Hat Enterprise Linux release 8.10 (Ootpa)
+# Processor Detail   : INTEL(R) XEON(R) GOLD 6548Y+
+# CPU Frequency      : 2500.000 MHz
+# CPU Physical cores : 64
+# CPU Logical cores  : 128
+# Host memory        : 539970 MB
+# Swap memory        : 0 MB
+# Total Virtual      : 539970 MB
+# Available Virtual  : 480463 MB
+#-----------------------------------------------------------
+start_gui
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at /opt/Vivado_Install/2025_1/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at /opt/Vivado_Install/2025_1/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at /opt/Vivado_Install/2025_1/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+open_project /home/HCL5/saketh/VIVADO_PROJECTS/interconnect/interconnect.xpr
+Scanning sources...
+Finished scanning sources
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at /opt/Vivado_Install/2025_1/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at /opt/Vivado_Install/2025_1/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at /opt/Vivado_Install/2025_1/2025.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Project 1-5713] Board part '' set for the project  is not found. BoardPart property will be unset. Please select board from latest repo build 
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Vivado_Install/2025_1/2025.1/Vivado/data/ip'.
+INFO: [Project 1-5698] Found the below utility IPs instantiated in block design /home/HCL5/saketh/VIVADO_PROJECTS/interconnect/interconnect.gen/sources_1/bd/cdac_demo/bd/ddr4_inst_0/ddr4_inst_0.bd which have equivalent inline hdl with improved performance and reduced diskspace.
+It is recommended to migrate these utility IPs to inline hdl  using the command upgrade_project -migrate_to_inline_hdl.  The utility IPs may be deprecated in future releases.
+More information on inline hdl is available in UG994.
+Utility IP Component Instances:
+ ddr4_inst_0_util_vector_logic_0_0
+INFO: [Project 1-5698] Found the below utility IPs instantiated in block design /home/HCL5/saketh/VIVADO_PROJECTS/interconnect/interconnect.srcs/sources_1/bd/cdac_demo_noc/cdac_demo_noc.bd which have equivalent inline hdl with improved performance and reduced diskspace.
+It is recommended to migrate these utility IPs to inline hdl  using the command upgrade_project -migrate_to_inline_hdl.  The utility IPs may be deprecated in future releases.
+More information on inline hdl is available in UG994.
+Utility IP Component Instances:
+ cdac_demo_noc_util_vector_logic_0_0
+INFO: [Project 1-5698] Found the below utility IPs instantiated in block design /home/HCL5/saketh/VIVADO_PROJECTS/interconnect/interconnect.srcs/sources_1/bd/bridge_pcie_ddr_ep/bridge_pcie_ddr_ep.bd which have equivalent inline hdl with improved performance and reduced diskspace.
+It is recommended to migrate these utility IPs to inline hdl  using the command upgrade_project -migrate_to_inline_hdl.  The utility IPs may be deprecated in future releases.
+More information on inline hdl is available in UG994.
+Utility IP Component Instances:
+ bridge_pcie_ddr_ep_util_vector_logic_0_0
+INFO: [Project 1-5698] Found the below utility IPs instantiated in block design /home/HCL5/saketh/VIVADO_PROJECTS/interconnect/interconnect.srcs/sources_1/bd/cdac_demo/cdac_demo.bd which have equivalent inline hdl with improved performance and reduced diskspace.
+It is recommended to migrate these utility IPs to inline hdl  using the command upgrade_project -migrate_to_inline_hdl.  The utility IPs may be deprecated in future releases.
+More information on inline hdl is available in UG994.
+Utility IP Component Instances:
+ cdac_demo_util_vector_logic_0_0
+INFO: [Project 1-5698] Found the below utility IPs instantiated in block design /home/HCL5/saketh/VIVADO_PROJECTS/interconnect/interconnect.srcs/sources_1/bd/ddr4/ddr4.bd which have equivalent inline hdl with improved performance and reduced diskspace.
+It is recommended to migrate these utility IPs to inline hdl  using the command upgrade_project -migrate_to_inline_hdl.  The utility IPs may be deprecated in future releases.
+More information on inline hdl is available in UG994.
+Utility IP Component Instances:
+ ddr4_util_vector_logic_0_0
+open_project: Time (s): cpu = 00:00:22 ; elapsed = 00:00:11 . Memory (MB): peak = 10863.602 ; gain = 561.855 ; free physical = 268190 ; free virtual = 458399
+update_compile_order -fileset sources_1
+open_bd_design {/home/HCL5/saketh/VIVADO_PROJECTS/interconnect/interconnect.srcs/sources_1/bd/cdac_demo/cdac_demo.bd}
+Reading block design file </home/HCL5/saketh/VIVADO_PROJECTS/interconnect/interconnect.srcs/sources_1/bd/cdac_demo/cdac_demo.bd>...
+Adding component instance block -- xilinx.com:ip:smartconnect:1.0 - smartconnect_0
+Adding component instance block -- xilinx.com:ip:ddr4_pl:1.0 - ddr4_pl_0
+Adding component instance block -- xilinx.com:ip:pcie_versal:1.1 - pcie
+Adding component instance block -- xilinx.com:ip:pcie_phy_versal:1.1 - pcie_phy
+Adding component instance block -- xilinx.com:ip:util_ds_buf:2.2 - bufg_gt_sysclk
+Adding component instance block -- xilinx.com:ip:util_ds_buf:2.2 - refclk_ibuf
+Adding component instance block -- xilinx.com:ip:gt_quad_base:1.1 - gt_quad_0
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - proc_sys_reset_0
+Adding component instance block -- xilinx.com:ip:util_vector_logic:2.0 - util_vector_logic_0
+Adding component instance block -- xilinx.com:ip:smartconnect:1.0 - smartconnect_1
+Adding component instance block -- xilinx.com:ip:qdma:5.1 - qdma_0
+Successfully read diagram <cdac_demo> from block design file </home/HCL5/saketh/VIVADO_PROJECTS/interconnect/interconnect.srcs/sources_1/bd/cdac_demo/cdac_demo.bd>
+open_bd_design: Time (s): cpu = 00:00:12 ; elapsed = 00:00:06 . Memory (MB): peak = 11291.586 ; gain = 0.000 ; free physical = 268019 ; free virtual = 458228
+not writing pins
+not writing pins
+open_bd_design {/home/HCL5/saketh/VIVADO_PROJECTS/interconnect/interconnect.srcs/sources_1/bd/cdac_demo/cdac_demo.bd}
+not writing pins
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Aug  6 00:19:36 2026...

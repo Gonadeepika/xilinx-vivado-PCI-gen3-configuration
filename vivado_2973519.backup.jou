@@ -1,0 +1,28 @@
+#-----------------------------------------------------------
+# Vivado v2025.1 (64-bit)
+# SW Build 6140274 on Wed May 21 22:58:25 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Thu Aug  6 00:16:54 2026
+# Process ID         : 2973519
+# Current directory  : /home/HCL5/saketh/VIVADO_PROJECTS/interconnect
+# Command line       : vivado
+# Log file           : /home/HCL5/saketh/VIVADO_PROJECTS/interconnect/vivado.log
+# Journal file       : /home/HCL5/saketh/VIVADO_PROJECTS/interconnect/vivado.jou
+# Running On         : RISCV-NSM-Veloce
+# Platform           : RedHatEnterprise
+# Operating System   : Red Hat Enterprise Linux release 8.10 (Ootpa)
+# Processor Detail   : INTEL(R) XEON(R) GOLD 6548Y+
+# CPU Frequency      : 2500.000 MHz
+# CPU Physical cores : 64
+# CPU Logical cores  : 128
+# Host memory        : 539970 MB
+# Swap memory        : 0 MB
+# Total Virtual      : 539970 MB
+# Available Virtual  : 480463 MB
+#-----------------------------------------------------------
+start_gui
+open_project /home/HCL5/saketh/VIVADO_PROJECTS/interconnect/interconnect.xpr
+update_compile_order -fileset sources_1
+open_bd_design {/home/HCL5/saketh/VIVADO_PROJECTS/interconnect/interconnect.srcs/sources_1/bd/cdac_demo/cdac_demo.bd}
+open_bd_design {/home/HCL5/saketh/VIVADO_PROJECTS/interconnect/interconnect.srcs/sources_1/bd/cdac_demo/cdac_demo.bd}
